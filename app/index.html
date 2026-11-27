@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DompetKeluarga — Atur Uang Rumah Tangga</title>
+  <meta name="description" content="DompetKeluarga: dashboard, transaksi, anggaran, tujuan tabungan, dan laporan untuk mengatur uang rumah tangga — semua data tersimpan di perangkat Anda.">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#/">DompetKeluarga <small>· atur uang rumah tangga</small></a>
+      <nav class="nav" aria-label="Navigasi utama">
+        <a href="#/" data-route="/">Dashboard</a>
+        <a href="#/transaksi" data-route="/transaksi">Transaksi</a>
+        <a href="#/anggaran" data-route="/anggaran">Anggaran</a>
+        <a href="#/tujuan" data-route="/tujuan">Tujuan</a>
+        <a href="#/laporan" data-route="/laporan">Laporan</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap" id="view" aria-live="polite"></main>
+  <footer class="site-footer">
+    <p>DompetKeluarga — situs contoh untuk keluarga Indonesia. Semua data tersimpan di perangkat Anda (localStorage) dan tidak dikirim ke mana pun.</p>
+    <p><a href="#/">Dashboard</a> · <a href="#/transaksi">Transaksi</a> · <a href="#/anggaran">Anggaran</a> · <a href="#/tujuan">Tujuan</a> · <a href="#/laporan">Laporan</a></p>
+  </footer>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
